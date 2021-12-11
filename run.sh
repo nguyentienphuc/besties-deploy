@@ -1,3 +1,4 @@
+sudo rm -rf backup_images
 mkdir -p backup_images
 mv besties/public/* backup_images
 sudo rm -rf besties
