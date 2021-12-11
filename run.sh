@@ -1,13 +1,6 @@
-sudo rm -rf backup_images
-mkdir -p backup_images
-mv besties/public/* backup_images
-sudo rm -rf besties
-git clone -b master https://github.com/nguyentienphuc/strapi-besties.git besties
- 
-cd besties
-npm install
+sudo cd besties 
+rm -rf !("public/uploads")
 cd ../
-mv backup_images/* besties/public
+git clone -b master https://github.com/nguyentienphuc/strapi-besties.git besties
 cd besties
-
 npm run develop
