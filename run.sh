@@ -1,5 +1,5 @@
 cd besties 
-rm -rf !("public/uploads")
+rm -rf !("public")
 cd ../
 git clone -b master https://github.com/nguyentienphuc/strapi-besties.git besties
 cd besties
